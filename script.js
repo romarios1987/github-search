@@ -12,7 +12,7 @@ $(document).ready(function () {
         }).done(function (user) {
 
             // Ajax request for repos
-            $.ajax.get({
+            $.ajax({
                 url: 'https://api.github.com/users/' + username + '/repos',
                 data: {
                     client_id: 'ad8c37b74fff44db3401',
