@@ -38,7 +38,6 @@ $(document).ready(function () {
                      </div>`);
                 });
             });
-
             $('#profile').html(`<div class="panel panel-default">
                                     <div class="panel-heading">
                                         <h3 class="panel-title">${user.name}</h3>
